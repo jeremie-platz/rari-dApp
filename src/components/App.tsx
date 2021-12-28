@@ -123,7 +123,6 @@ const App = memo(() => {
             );
           })}
 
-          <Route path="/" element={<Navigate to="/" replace={true} />} />
         </Route>
 
         <Route path="/tranches" element={<TranchesPage />} />
